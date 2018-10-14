@@ -14,8 +14,7 @@
 
 .gray-square {
   width: 60vw;
-  height: 40vh;
-  background-color: lightgray;
+ 
   margin: 1em auto;
 }
 /* @media only screen and (min-width:500px)
@@ -29,7 +28,6 @@
   .gray-square {
     width: 50vw;
     height: 60vh;
-    background-color: lightgray;
     position: absolute;
     top: 150px;
     right: 100px;
@@ -102,17 +100,43 @@ h2 {
     background-color: lightgray;
     margin: 2em;
     float: left;
-  
     }
+
 .how-it-works-text {
     width: 500px;
     height: 300px;
     float: left;
     margin: 2em;
-    padding-top: 80px;
+    padding-top: 50px;
     } 
-.im-ready h2 {
+#im-ready {
+    position: absolute;
+    top: 2400px;
+    max-width: 100%;
     margin-top: 30px;
     height: 400px;
-    color: black
+    color: black;
+    text-align: center;
+    margin-left:28%;
+
+}
+#im-ready-div {
+    width: 600px;
+    text-align: center;
+}
+#footer {
+    clear: left;
+    width: 100%;
+    position: absolute;
+    top: 2800px;
+    height: 500px;
+    background-color: #231B54;
+    color: white;
+    vertical-align: center;
+}
+#footer div {
+    margin: 10em 4em;
+}
+.p-heading {
+    font-weight: bold;
 }
