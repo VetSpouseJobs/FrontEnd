@@ -36,3 +36,4 @@ This application using HTML, CSS, and JavaScript to display the front end applic
 10-13-2018 2:00 PM - scaffolding the search results page <br />
 10-14-2018 9:00 AM - index page completed <br />
 10-14-2018 9:45 AM - linked index page to search results template <br />
+10-14-2018 10:00 AM - readme complete <br />
