@@ -1,6 +1,4 @@
-.intro-text {
-    max-width: 450px;
-}
+
 .orange-round {
     border-radius: 7em;
     background-color: #FF5500;
@@ -15,11 +13,18 @@
 }
 
 .gray-square {
-  width: 300px;
-  height: 300px;
+  width: 60vw;
+  height: 40vh;
   background-color: lightgray;
   margin: 1em auto;
 }
+/* @media only screen and (min-width:500px)
+{
+  .gray-square {
+    width: 350px;
+    height: 300px;
+  }
+} */
 @media only screen and (min-width: 750px) {
   .gray-square {
     width: 50vw;
@@ -31,6 +36,10 @@
     z-index: -1;
 
   }
+
+  .intro-text {
+    max-width: 450px;
+}
 }
 p {
   color:#697689;

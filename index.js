@@ -12,12 +12,12 @@
 // }, false);
 
 var typed1 = new Typed('#sl-typed', {
-    strings: ["squad leader.^3000"],
+    strings: ["a squad leader.^3000", "a platoon sergeant.^3000", "a military spouse.^3000"],
     typeSpeed: 100,
     loop: true
   });
   var typed2 = new Typed('#shift-typed', {
-    strings: ["^3000shift supervisor.^500"],
+    strings: ["a nuclear engineer.^3000", "a software engineer.^2750", "an Uber driver.^2750"],
     typeSpeed: 100,
     loop: true
   });

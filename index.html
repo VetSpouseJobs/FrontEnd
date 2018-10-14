@@ -6,11 +6,12 @@
     crossorigin="anonymous">
   <link href="css/base.css" rel="stylesheet">
   <link href="css/home.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-md bg-faded justify-content-center">
-    <a href="/" class="navbar-brand d-flex w-50 mr-auto text-uppercase text-white">logo</a>
+  <nav class="navbar navbar-dark navbar-expand-md bg-faded justify-content-center fixed-top">
+    <a href="/" class="navbar-brand d-flex w-50 mr-auto text-uppercase text-white">RankUp</a>
     <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,6 +27,7 @@
     </div>
   </nav>
   <main>
+    <p>Rank Up</p>
     <h1>Looking for Your Next Adventure?</h1>
     <p>
 
@@ -34,39 +36,16 @@
     </div>
     <div class="intro-text">
       <p>
-        You are a <strong id="sl-typed"></strong><br />You want to be
-        a <strong id="shift-typed"></strong>
+        You are <strong id="sl-typed"></strong><br />You want to be <strong id="shift-typed"></strong>
       </p>
       <p>
-        This is some body text. You might us it to read and write long sequences of words.<br />Help us help you.
+        This is some body text. You might use it to read and write long sequences of words.<br />Help us help you.
       </p>
     </div>
     <button class="text-white orange-round"><a href="#rank-me-up">GET STARTED</a></button>
   </main>
   <section id="rank-me-up">
       <h2>I am looking for jobs in <select> <option value="Seattle, Washington">Seattle, Washington</option><option value="Portland, Oregon">Portland, Oregon</option></select></h2>
-<!-- <h2>Here's my resume<input name ="resume" type="file" id="input" onchange="handleFiles(this.files)"></h2> -->
-<!-- <script id="FileName-template" type="text/x-handlebars-template"> -->
-<!-- <h2>Here's my<input value="DOMString" class="custom-file-input" type="file" id="fileElem" accept=".doc, .pdf" style="display:none" onchange="handleFiles(this.files)">
-<button id="fileSelect">upload ".doc" or ".pdf"<script type="text/javascript">function getFilePath(){
-  $('input[type=file]').change(function () {
-      var filePath=$('#fileElem').val(); 
-  });
-}</script></button>
-</h2> -->
-<!-- </script> -->
-<!-- <div class="custom-file">
-    <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-    <div class="invalid-feedback">Example invalid custom file feedback</div>
-  </div>
-
-      <h2>Here's my<form>
-          <div class="form-group">
-            <label for="exampleFormControlFile1"></label>
-            <input type="file" accept=".doc, .pdf" class="form-control" id="exampleFormControlFile1">
-          </div>
-        </form></h2> -->
         <h2><input type="file" id="fileElem" accept=".doc, .pdf, .txt" style="display:none" onchange="handleFiles(this.files)">
         <a href="#" id="fileSelect">Upload your resume</a> 
         <div id="fileList">
@@ -107,6 +86,7 @@
     crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
   <script src="./index.js"></script>
+
 </body>
